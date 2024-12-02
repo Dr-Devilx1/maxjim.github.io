@@ -1,0 +1,855 @@
+@font-face {
+    font-family: comic;
+    src: url(fonts/coconutz.ttf );
+}
+
+@font-face {
+    font-family: fancy;
+    src: url(fonts/MamaBear.otf);
+}
+
+
+* {
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+    color: unset;
+    transition: all 0.6s;
+
+
+}
+
+
+
+body {
+
+    font-family: comic;
+    /* position: relative; */
+    width: 100vw;
+    overflow-x: hidden;
+    background: #ff9700;
+
+}
+
+main {
+
+    position: relative;
+
+}
+
+h2{
+
+    font-size: 2.5vw;
+
+}
+
+h3{
+
+    font-size: 3vw;
+
+}
+
+h4{
+
+    font-size: 3vw;
+
+}
+
+
+h5{
+
+    font-size: 1.6vw;
+
+}
+
+
+h6{
+
+    font-size: 2vw;
+
+}
+
+
+p{
+
+    font-size: 1.7vw;
+
+}
+
+
+
+
+/* ................................................. SECTION 0...................... */
+
+
+.sect0 {
+
+    background: url(images/sect1\ bg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    width: 100vw;
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+
+    z-index: 1;
+
+
+}
+
+
+.big-h-img {
+
+    width: 50vw;
+    /* padding: 2%; */
+    margin: 15% 0 1% 0;
+    animation: zooom 2s ease infinite;
+
+
+}
+
+.s0-d2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: -5% 0 0 0;
+
+
+}
+
+.s0-mimg {
+
+    width: 40vw;
+    animation: zooming 2s ease ;
+
+
+
+
+}
+
+.s0-d21 {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3vw;
+
+    padding: 5%;
+
+}
+
+
+.s0-btns {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+
+}
+
+.s0-btns img {
+
+    height: 6vw;
+
+}
+
+.s0-btns img:hover {
+
+    scale: 1.1;
+    transform: translateY(-5%);
+
+}
+
+
+/* ................................................. SECTION 1...................... */
+
+
+.sect1 {
+
+    background: url(images/social\ bg.png);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 50vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+
+    margin: -10% 0 0 0;
+    position: relative;
+
+    z-index: 3;
+
+}
+
+.sect1 img {
+
+    width: 20vw;
+    margin: -7% 0 0 0;
+
+}
+
+
+.sect1 img:hover{
+
+    scale: 1.08;
+
+}
+
+
+
+/* ................................................. SECTION 2...................... */
+
+
+.sect2 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+    text-align: center;
+
+    width: 100vw;
+
+    padding: 5% 10% 5% 10%;
+
+}
+
+.sect2 img {
+
+    width: 40vw;
+    animation: shake 2s ease infinite;
+
+
+}
+
+
+
+/* ................................................. SECTION 3...................... */
+
+.sect3 {
+
+    background: url(images/sect3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: start;
+    width: 100vw;
+
+    padding: 0 0 0 50%;
+
+    height: 80vw;
+
+    margin: -3% 0 -10% 0;
+
+
+    overflow-x: hidden;
+
+}
+
+.sect3 img {
+
+    width: 45vw;
+    animation: zooom 2s ease infinite;
+
+}
+
+
+.sect3 ol {
+
+    margin: 2% 0 2% 7%;
+    width: 100%;
+    /* background: wheat; */
+    font-size: 3vw;
+    line-height: 3.3rem;
+    overflow-x: hidden;
+
+
+
+}
+
+
+
+/* ................................................. SECTION 4...................... */
+
+.sect4 {
+
+    text-align: center;
+    width: 100vw;
+    padding: 0 10%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+
+}
+
+.abt-h-img {
+
+    width: 40vw;
+    animation: zooom 2s ease infinite;
+
+
+}
+
+.abt-img2 {
+
+    width: 75vw;
+    margin: 2% 0 2% -5%;
+
+}
+
+/* ................................................. SECTION 4...................... */
+
+
+.part2 {
+
+
+    background: url(images/tokenbg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15vw;
+
+}
+
+
+.sect5 {
+
+
+    /* background: url(images/tokenbg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    background: #ff8800;
+
+
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+
+    padding: 0% 0 0 0;
+
+
+
+}
+
+
+.s5-d1 {
+
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+
+
+    background: #ff8800;
+
+
+    padding: 0% 0 0 0;
+
+
+
+}
+
+.s5-d1 img {
+
+    width: 40vw;
+    z-index: 2;
+    animation: zooom 2s ease infinite;
+
+
+}
+
+.s5-d1 div {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+
+    justify-content: space-between;
+    align-items: center;
+
+
+    width: 50vw;
+
+    /* gap: 5%; */
+
+    background: white;
+    border-radius: 10px;
+
+    padding: 0.5% 0.5% 0.5% 3%;
+
+    box-shadow: 0 5px 0 rgba(59, 59, 59, 0.663);
+
+    z-index: 2;
+
+
+
+
+
+}
+
+.s5-d1 div a {
+
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 2%;
+    margin: 0%;
+    font-size: 2vw;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 0 rgba(156, 156, 156, 0.663);
+
+    z-index: 2;
+
+
+}
+
+.s5-d1 div a:hover {
+
+    scale: 1.06;
+    box-shadow: 0 0 10px rgb(96, 96, 96);
+
+
+}
+
+
+
+.t-boxes {
+
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: space-between;
+    align-items: center;
+
+    width: 88vw;
+
+    margin: 3%;
+
+    z-index: 2;
+
+}
+
+.t-boxes div {
+
+    background: #ffee01;
+
+    border-radius: 1vw;
+    border: 0.4vw solid black;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+
+    width: 20vw;
+    height: 10vw;
+
+    padding: 1%;
+
+    text-align: center;
+
+}
+
+
+.t-boxes div:hover {
+
+    scale: 1.08;
+    transform: translateY(-5%);
+    box-shadow: 0 0 20px rgb(255, 245, 134);
+
+
+}
+
+.t-boxes div h6:nth-child(1) {
+
+    background: #ff9700;
+    width: 100%;
+    color: white;
+    border-radius: 0.2vw;
+
+}
+
+
+
+
+/* ..........................................SECT6 ...............................  */
+
+.sect6 {
+
+    background: linear-gradient(to bottom, #ff8800 0%, #ff9700 100% );
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    width: 100vw;
+    /* height: 90vw; */
+
+
+}
+
+.htb-btn {
+
+    width: 40vw;
+    position: relative;
+    margin: 5% 5% 5% 5%;
+    z-index: 2;
+    animation: zooom 2s ease infinite;
+
+
+
+}
+
+
+
+.sect6-gd  {
+
+    display: grid;
+    grid-template-rows: 20vw 20vw;
+    grid-template-columns: 35vw 35vw;
+    grid-gap: 1.5vw;
+
+    margin: 0 0% 0 15%;
+
+
+}
+
+
+
+
+.sect6-ind {
+
+    background-color: white;
+    border: 0.3vw solid black;
+    border-radius: 3vw;
+    background-size: cover;
+
+    text-align: start;
+
+    align-content: center;
+
+    height: 20vw;
+    width: 35vw;
+
+    margin: 0% 0 0 0;
+    z-index: 2;
+
+}
+
+.nmbrs-d {
+
+    margin: -20% 0 0 -5%;
+
+}
+
+.nmbrs {
+
+    width: 7vw;
+    animation: zooom 2s ease infinite;
+
+    /* margin: -100% 0 0 0; */
+
+}
+
+.sect6-ind h3 {
+    color: black;
+    padding: 0 3vw 0 3vw;
+
+}
+
+.sect6-ind p {
+
+    color: black;
+    padding: 0 5vw 0 5vw;
+
+}
+
+
+.sect6-d1 {
+
+    transform: rotate(-5deg);
+
+
+}
+
+
+.sect6-d2 {
+
+    transform: rotate(2deg);
+
+}
+
+
+.sect6-d3 {
+
+    transform: rotate(5deg);
+
+}
+
+
+.sect6-d4 {
+
+    transform: rotate(-9deg);
+
+}
+
+
+/* ..........................................SECT7 ...............................  */
+
+
+
+.sect7{
+
+    background: url(images/sect7.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 10% 0 0 0;
+    padding: 5% 0 5% 0;
+
+
+}
+
+.rd-h{
+
+    width: 40vw;
+
+    margin: 0 0 5% 0;
+    animation: zooom 2s ease infinite;
+
+
+}
+
+.sect7-md{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: start;
+    align-items: center;
+    gap: 2vw;
+
+    width: 50vw;
+    margin:1vw auto;
+
+    padding: 1.5%;
+
+    text-align: left;
+
+    background: #4d4d4d;
+
+    border-radius: 1vw;
+
+    z-index: 2;
+
+}
+
+.sect7-md:hover{
+
+    /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.945); */
+    scale: 1.05;
+
+}
+
+.sect7-md img{
+
+    height: 4vw;
+    animation: zooom 2s ease infinite;
+
+
+}
+
+.sect7-md li{
+
+    color: white;
+    font-size: 2.5vw;
+
+}
+
+
+/* <!-- ........................................LAST............................ --> */
+
+.last{
+
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 3%;
+    width: 100vw;
+    z-index: 2;
+    position: relative;
+
+}
+
+
+
+/* <!-- ........................................POSITION ABSOLUTE............................ --> */
+
+.sect0 h2{
+
+    animation: shake 2s ease infinite;
+
+}
+
+.posabs{
+
+    position: absolute;
+    
+
+}
+
+.cld1{
+
+    top: 20%;
+    right: -3%;
+    width: 13vw;
+
+    animation: slide-left 8s ease infinite;
+
+}
+
+.cld2{
+
+    top: 27%;
+    left: -4%;
+    width: 13vw;
+    animation: scroll-left 8s ease infinite;
+
+
+}
+
+.cld3{
+
+    top: 65%;
+    left: -3%;
+    width: 13vw;
+    z-index: 2;
+    animation: zooom 2s ease infinite;
+
+
+
+}
+
+
+.cld4{
+
+    top: 65%;
+    right: -3%;
+    width: 13vw;
+    z-index: 2;
+    animation: zooom 2s ease infinite;
+
+
+
+}
+
+
+.dots{
+
+    top: 63%;
+    width: 100vw;
+    z-index: 1;
+
+}
+
+.flbdy{
+
+    top: 28%;
+    left: 5%;
+    width: 35vw;
+    z-index: 2;
+
+    animation: spining 4s ease infinite;
+
+
+}
+
+
+.clshnd{
+
+    top: 91%;
+    left: -5%;
+    width: 40vw;
+    z-index: 1;  
+    animation: left-side-zoom 3s ease-out infinite; 
+
+}
+
+
+.rlxhnd{
+
+    top: 90%;
+    right: -5%;
+    width: 40vw;
+    z-index: 1;
+    animation: right-side-zoom 3s ease-out infinite; 
+
+
+}
+

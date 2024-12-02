@@ -1,0 +1,791 @@
+@media screen and (max-width:790px) {
+
+    
+
+
+    h2{
+    
+        font-size: 3vw;
+    
+    }
+    
+    h3{
+    
+        font-size: 4vw;
+    
+    }
+    
+    h4{
+    
+        font-size: 3.8vw;
+    
+    }
+    
+    
+    h5{
+    
+        font-size: 3vw;
+    
+    }
+    
+    
+    h6{
+    
+        font-size: 5vw;
+    
+    }
+    
+    
+    p{
+    
+        font-size: 3vw;
+    
+    }
+    
+    
+    
+    
+    /* ................................................. SECTION 0...................... */
+    
+    
+    .sect0 {
+    
+        background: url(images/sect1\ bg.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    
+        width: 100vw;
+        overflow-x: hidden;
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+    
+        z-index: 1;
+        padding: 2%;
+        overflow-x: hidden;
+
+    
+    
+    }
+    
+    
+    .big-h-img {
+    
+        width: 60vw;
+        /* padding: 2%; */
+        margin: 15% 0 0% 0;
+    
+    
+    }
+    
+    .s0-d2 {
+    
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 10% 0 0 0;
+    
+    
+    }
+    
+    .s0-mimg {
+    
+        width: 50vw;
+    
+    
+    
+    }
+    
+    .s0-d21 {
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 3vw;
+    
+        padding: 5%;
+    
+    }
+    
+    
+    .s0-btns {
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1vw;
+    
+    }
+    
+    .s0-btns img {
+    
+        height: 9vw;
+    
+    }
+    
+    .s0-btns img:hover {
+    
+        scale: 1.1;
+        transform: translateY(-5%);
+    
+    }
+    
+    
+    /* ................................................. SECTION 1...................... */
+    
+    
+    .sect1 {
+    
+        background: url(images/social\ bg\ 2.png);
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        height: 50vw;
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
+    
+        margin: -10% 0 0 0;
+        position: relative;
+    
+        z-index: 3;
+        overflow-x: hidden;
+
+    
+    }
+    
+    .sect1 img {
+    
+        width: 22vw;
+        margin: -3% 0 0 0;
+    
+    }
+    
+
+
+
+    /* ................................................. SECTION 2...................... */
+    
+    
+    .sect2 {
+    
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 5vw;
+    
+        text-align: center;
+    
+        width: 100vw;
+    
+        padding: 5% 5% 5% 5%;
+        overflow-x: hidden;
+
+    
+    }
+    
+    .sect2 img {
+    
+        width: 50vw;
+    
+    }
+    
+    /* ................................................. SECTION 3...................... */
+    
+    .sect3 {
+    
+        background: url(images/sect3.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    
+        justify-content: center;
+        align-items: start;
+        width: 100vw;
+    
+        padding: 0 0 0 40%;
+    
+        height: 100vw;
+    
+        margin: -5% 0 -15% 0;
+        overflow-x: hidden;
+
+    
+    }
+    
+    .sect3 img {
+    
+        width: 45vw;
+    
+    }
+    
+    
+    .sect3 ol {
+    
+        margin: 2% 0 2% 7%;
+        padding: 1%;
+        width: 100%;
+        /* background: wheat; */
+        font-size: 4vw;
+        line-height: 4.5vw;
+    
+    }
+    
+    
+    
+    
+    /* ................................................. SECTION 4...................... */
+    
+    .sect4 {
+    
+        text-align: center;
+        width: 100vw;
+        padding: 0 10%;
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3vw;
+        overflow-x: hidden;
+
+    
+    }
+    
+    .abt-h-img {
+    
+        width: 40vw;
+    
+    }
+    
+    .abt-img2 {
+    
+        width: 75vw;
+        margin: 2% 0 2% -5%;
+    
+    }
+    
+    /* ................................................. SECTION 4...................... */
+    
+    
+    .part2 {
+    
+    
+        background: url(images/tokenbg.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 15vw;
+    
+    }
+    
+    
+    .sect5 {
+    
+    
+        /* background: url(images/tokenbg.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover; */
+    
+        background: #ff8800;
+    
+    
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    
+        justify-content: center;
+        align-items: center;
+    
+        width: 100vw;
+    
+        padding: 0% 0 0 0;
+        overflow-x: hidden;
+
+    
+    
+    }
+    
+    
+    .s5-d1 {
+    
+        width: 100vw;
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+    
+    
+        background: #ff8800;
+    
+    
+        padding: 0% 0 0 0;
+    
+    
+    
+    }
+    
+    .s5-d1 img {
+    
+        width: 65vw;
+    
+    }
+    
+    .s5-d1 div {
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    
+    
+        justify-content: space-between;
+        align-items: center;
+    
+    
+        width: 80vw;
+    
+        /* gap: 5%; */
+    
+        background: white;
+        border-radius: 10px;
+    
+        padding: 0.5% 0.5% 0.5% 3%;
+    
+        box-shadow: 0 5px 0 rgba(59, 59, 59, 0.663);
+    
+    
+    
+    
+    
+    }
+    
+    .s5-d1 div a {
+    
+        background: black;
+        color: white;
+        text-decoration: none;
+        padding: 2%;
+        margin: 0%;
+        font-size: 2.5vw;
+    
+        border-radius: 10px;
+    
+        box-shadow: 0 2px 0 rgba(156, 156, 156, 0.663);
+    
+    
+    }
+    
+    .s5-d1 div a:hover {
+    
+        scale: 1.06;
+        box-shadow: 0 0 5px rgb(96, 96, 96);
+    
+    
+    }
+    
+    
+    
+    .t-boxes {
+    
+    
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    
+        justify-content: center;
+        align-items: center;
+        gap: 5vw;
+    
+        width: 90vw;
+    
+        margin: 5% 0% 0 0;
+    
+    }
+    
+    .t-boxes div {
+    
+        background: #ffee01;
+    
+        border-radius: 1vw;
+        border: 0.6vw solid black;
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    
+        justify-content: center;
+        align-items: center;
+        gap: 1vw;
+    
+        width: 70%;
+        height: 20vw;
+    
+        padding: 1%;
+    
+        text-align: center;
+    
+    }
+    
+    
+    .t-boxes div:hover {
+    
+        scale: 1.08;
+        transform: translateY(-5%);
+        box-shadow: 0 0 10px rgb(255, 245, 134);
+    
+    
+    }
+    
+    .t-boxes div h6:nth-child(1) {
+    
+        background: #ff9700;
+        width: 100%;
+        color: white;
+        border-radius: 0.2vw;
+    
+    }
+    
+    
+    
+    
+    /* ..........................................SECT6 ...............................  */
+    
+    .sect6 {
+    
+        background: linear-gradient(to bottom, #ff8800 0%, #ff9700 100% );
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        justify-content: center;
+        width: 100vw;
+        height: auto;
+        /* height: 90vw; */
+        overflow-x: hidden;
+
+    
+    
+    }
+    
+    .htb-btn {
+    
+        width: 50vw;
+        position: relative;
+        margin: 10% 5% 5% 5%;
+    
+    
+    }
+    
+    
+    
+    .sect6-gd  {
+    
+        display: grid;
+        grid-template-rows: 32vw 32vw 32vw 32vw;
+        grid-template-columns: 70vw;
+        grid-gap: 1.5vw;
+    
+        margin: 0 0% 0 15%;
+    
+        
+    
+    }
+    
+    
+    
+    
+    .sect6-ind {
+    
+        background-color: white;
+        border: 0.3vw solid black;
+        border-radius: 3vw;
+        background-size: cover;
+    
+        text-align: start;
+    
+        align-content: center;
+    
+        height: 30vw;
+        width: 70vw;
+    
+        margin: 0% 0 0 0;
+    }
+    
+    .nmbrs-d {
+    
+        margin: -10% 0 0 -5%;
+    
+    }
+    
+    .nmbrs {
+    
+        width: 9vw;
+        /* margin: -100% 0 0 0; */
+    
+    }
+    
+    .sect6-ind h3 {
+        color: black;
+        padding: 0 3vw 0 3vw;
+    
+    }
+    
+    .sect6-ind p {
+    
+        color: black;
+        padding: 0 5vw 0 5vw;
+    
+    }
+    
+    
+    .sect6-d1 {
+    
+        transform: rotate(-3deg);
+        margin: 0 0 0 0;
+    
+    
+    }
+    
+    
+    .sect6-d2 {
+    
+        transform: rotate(3deg);
+        margin: -3% 0 0 0;
+    
+    }
+    
+    
+    .sect6-d3 {
+    
+        transform: rotate(-5deg);
+        margin: -10% 0 0 0;
+    
+    }
+    
+    
+    .sect6-d4 {
+    
+        transform: rotate(3deg);
+        margin: -11% 0 0 0;
+    
+    }
+    
+    
+    /* ..........................................SECT7 ...............................  */
+    
+    
+    
+    .sect7{
+    
+        background: url(images/sect7.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    
+        justify-content: center;
+        align-items: center;
+    
+        margin: 0% 0 0 0;
+        padding: 0% 0 5% 0;
+        overflow-x: hidden;
+        height: 150vw;
+    
+    
+    }
+    
+    .rd-h{
+    
+        width: 60vw;
+    
+        margin: 0 0 5% 0;
+    
+    }
+    
+    .sect7-md{
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    
+        justify-content: start;
+        align-items: center;
+        gap: 2vw;
+    
+        width: 65vw;
+        margin:1vw auto;
+    
+        padding: 2%;
+    
+        text-align: left;
+    
+        background: #4d4d4d;
+    
+        border-radius: 1vw;
+    
+    }
+    
+    
+    .sect7-md img{
+    
+        height: 6vw;
+    
+    }
+    
+    .sect7-md li{
+    
+        color: white;
+        font-size: 3vw;
+    
+    }
+    
+    
+    /* <!-- ........................................LAST............................ --> */
+    
+    .last{
+    
+        background: black;
+        color: white;
+        text-align: center;
+        padding: 3%;
+        width: 100vw;
+    
+    }
+    
+
+    
+
+/* <!-- ........................................POSITION ABSOLUTE............................ --> */
+
+
+
+.cld1{
+
+    top: 18%;
+    right: -3%;
+    width: 13vw;
+    z-index: 3;
+
+    animation: slide-left 4s ease infinite;
+
+}
+
+.cld2{
+
+    top: 27%;
+    left: -4%;
+    width: 13vw;
+    z-index: 3;
+    animation: scroll-left 4s ease infinite;
+
+
+}
+
+.cld3{
+
+    top: 55%;
+    left: -3%;
+    width: 13vw;
+    z-index: 2;
+    animation: zooom 2s ease infinite;
+
+
+
+}
+
+
+.cld4{
+
+    top: 60%;
+    right: 2%;
+    width: 13vw;
+    z-index: 2;
+    animation: zooom 2s ease infinite;
+
+
+
+}
+
+
+.dots{
+
+    top: 48%;
+    width: 100vw;
+    z-index: 1;
+
+}
+
+.flbdy{
+
+    top: 28%;
+    left: 5%;
+    width: 35vw;
+    z-index: 2;
+
+    animation: spining 4s ease infinite;
+
+
+}
+
+
+.clshnd{
+
+    top: 94.5%;
+    left: 0%;
+    width: 40vw;
+    z-index: 1;  
+    animation: left-side-zoom 3s ease-out infinite; 
+
+}
+
+
+.rlxhnd{
+
+    top: 94%;
+    right: 0%;
+    width: 40vw;
+    z-index: 1;
+    animation: right-side-zoom 3s ease-out infinite; 
+
+
+}
+
+
+
+    
+
+}
